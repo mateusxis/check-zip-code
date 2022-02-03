@@ -12,13 +12,28 @@
     "test": "jest",
     "test-coverage": "yarn test --coverage"
   },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "jest --bail --findRelatedTests",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ],
+    "*.md": [
+      "prettier --write"
+    ]
+  },
   "dependencies": {},
   "devDependencies": {
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-security": "^1.4.0","jest": "^27.0.6",
+    "eslint-plugin-security": "^1.4.0",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.0.0",
     "prettier": "^2.3.2"
   }
 }
