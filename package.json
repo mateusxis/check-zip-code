@@ -7,11 +7,18 @@
   "author": "Mateusxis <dev.mateusxis@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "format": "prettier --write '**/*.{js,json,md}'"
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "lint": "eslint .",
+    "test": "jest",
+    "test-coverage": "yarn test --coverage"
   },
   "dependencies": {},
   "devDependencies": {
-    "jest": "27.0.6",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-security": "^1.4.0","jest": "^27.0.6",
     "prettier": "^2.3.2"
   }
 }
