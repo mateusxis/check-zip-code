@@ -1,0 +1,9 @@
+{
+  "name": "check-postal-code",
+  "version": "0.0.0",
+  "description": "Repository of check postal code",
+  "main": "index.js",
+  "repository": "git@github.com:mateusxis/check-postal-code.git",
+  "author": "Mateusxis <dev.mateusxis@gmail.com>",
+  "license": "MIT"
+}
