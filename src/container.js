@@ -2,7 +2,7 @@ const { createContainer, asFunction, asValue } = require('awilix');
 const router = require('./application/router');
 const server = require('./application/server');
 const config = require('./application/config');
-const loggerFactory = require('./infrastruture/logger');
+const loggerFactory = require('./infrastructure/logger');
 
 const container = createContainer();
 
