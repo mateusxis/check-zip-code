@@ -8,4 +8,6 @@ module.exports = () => {
     ctx.status = OK;
     ctx.body = 'OK';
   });
+
+  return router;
 };
