@@ -26,7 +26,10 @@
       "prettier --write"
     ]
   },
-  "dependencies": {},
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0"
+  },
   "devDependencies": {
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
