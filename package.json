@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "git@github.com:mateusxis/check-postal-code.git",
   "author": "Mateusxis <dev.mateusxis@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write '**/*.{js,json,md}'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
 }
